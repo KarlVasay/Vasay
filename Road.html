@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Web Systems and Technologies</title>
+<style>
+
+
+    body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+              url('https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg') no-repeat center center / cover;
+  background-attachment: fixed;
+  color: #121212;
+  line-height: 1.6;
+  padding: 0;
+
+    }
+    
+
+    header {
+
+      background: #4a90e2;
+
+      color: white;
+
+      padding: 20px;
+
+      text-align: center;
+
+    }
+
+    header h1 {
+
+      margin: 0;
+
+      font-size: 2.5rem;
+
+    }
+
+    header p {
+
+      margin: 5px 0 0;
+
+      font-size: 1.1rem;
+
+    }
+
+
+    nav {
+
+      background: #333;
+
+    }
+
+    nav ul {
+
+      list-style: none;
+
+      padding: 0;
+
+      margin: 0;
+
+      display: flex;
+
+      justify-content: center;
+
+    }
+
+    nav ul li {
+
+      margin: 0;
+
+    }
+
+    nav ul li a {
+
+      display: block;
+
+      padding: 15px 25px;
+
+      color: rgb(248, 249, 250);
+
+      text-decoration: none;
+
+    }
+
+    nav ul li a:hover {
+
+      background: #555;
+
+    }
+
+
+    main {
+
+      max-width: 1000px;
+
+      margin: 20px auto;
+
+      padding: 20px;
+
+      background: rgb(107, 189, 228);
+
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+      border-radius: 8px;
+
+    }
+
+    section {
+
+      margin-bottom: 30px;
+
+    }
+
+    h2 {
+
+      color: #4a90e2;
+
+      border-bottom: 2px solid #ddd;
+
+      padding-bottom: 5px;
+
+    }
+
+
+    img, video {
+
+      max-width: 100%;
+
+      height: auto;
+
+      display: block;
+
+      margin: 10px auto;
+
+      border-radius: 6px;
+
+    }
+
+
+    .transform2d:hover {
+
+      transform: rotateY(360deg) scale(1.05);
+
+      transition: 2.5s ease;
+
+    }
+
+    .transform3d:hover {
+
+      transform: rotateY(360deg);
+
+      transition: 2.5s ease;
+
+    }
+
+
+    form input, form button {
+
+      display: block;
+
+      width: 100%;
+
+      max-width: 400px;
+
+      padding: 10px;
+
+      margin: 10px 0;
+
+      border: 1px solid #ccc;
+
+      border-radius: 4px;
+
+    }
+
+    form button {
+
+      background: #000000;
+
+      color: white;
+
+      border: none;
+
+      cursor: pointer;
+
+    }
+
+    form button:hover {
+
+      background: #bbc2c9;
+
+    }
+
+
+    footer {
+
+      text-align: center;
+
+      background: #333;
+
+      color: white;
+
+      padding: 15px;
+
+      margin-top: 40px;
+
+    }
+
+    footer small {
+
+      font-size: 0.9rem;
+
+    }
+
+
+    @media (max-width: 600px) {
+
+      nav ul {
+
+        flex-direction: column;
+
+      }
+
+      header h1 {
+
+        font-size: 2rem;
+
+      }
+
+    }
+</style>
+</head>
+<body>
+<header>
+<h1>Welcome!</h1>
+<p>Creating a website using HTML5 and CSS with images, videos, and effects.</p>
+</header>
+<nav aria-label="Free resource links">
+<ul>
+<li><a href="https://www.pexels.com/photo/view-of-high-rise-buildings-during-day-time-302769/" target="_blank">Pexels Photo</a></li>
+<li><a href="https://www.pexels.com/video/bustling-cityscape-with-skyscrapers-at-dusk-30048215/" target="_blank">Pexels Video</a></li>
+</ul>
+</nav>
+<main>
+<section>
+<h2>About This Page</h2>
+<p>
+
+        The goal of this page is to practice HTML and CSS. It may look simple,
+
+        but I was able to include different elements like links,
+
+        an image, a video, and styled components.
+</p>
+</section>
+<section>
+<h2>My Sample Image</h2>
+<img src="highrise buildings.jpg" alt="High-rise buildings during the day" class="transform2d">
+</section>
+<section>
+<h2>My Sample Video</h2>
+<video controls class="transform3d">
+<source src="bustling cityscape.mp4" type="video/mp4">
+
+</video>
+</section>
+<section>
+<h2>Register Here</h2>
+<form>
+<input type="text" placeholder="Enter your name">
+<input type="email" placeholder="Enter your email">
+<button type="submit">Submit</button>
+</form>
+</section>
+</main>
+<footer>
+<p><small>Karl Eduard R. Vasay — 2025</small></p>
+</footer>
+</body>
+</html>
+View Of High Rise Buildings during Day Time · Stunning view of Melbourne's skyline at sunset, capturing modern skyscrapers and warm sky.
+ 
