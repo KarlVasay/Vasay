@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example 2 - Change Text</title>
+</head>
+<body>
+  <h3>Change the Paragraph</h3>
+  <p id="message">This text will change once you click.</p>
+  <button onclick="changeText()">Change Text</button>
+
+  <script>
+    function changeText() {
+      document.getElementById("message").innerHTML = "The text has been updated!";
+    }
+  </script>
+</body>
+</html>

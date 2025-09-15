@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example 5 - Counter</title>
+</head>
+<body>
+  <h3>Click Counter</h3>
+  <button onclick="addCount()">Click Me</button>
+  <p id="counter">0</p>
+
+  <script>
+    let count = 0;
+    function addCount() {
+      count++;
+      document.getElementById("counter").innerHTML = count;
+    }
+  </script>
+</body>
+</html>
+

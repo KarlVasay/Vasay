@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example 4 - Show Input</title>
+</head>
+<body>
+  <h3>Type Something</h3>
+  <input type="text" id="userInput" placeholder="Enter text here">
+  <button onclick="showInput()">Show</button>
+  <p id="output"></p>
+
+  <script>
+    function showInput() {
+      let input = document.getElementById("userInput").value;
+      document.getElementById("output").innerHTML = "You typed: " + input;
+    }
+  </script>
+</body>
+</html>
