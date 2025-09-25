@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navigation Menu</title>
+    <style>
+        
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+section {
+    padding: 100px 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+section h1 {
+    color: #333;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-form h2 {
+    color: #333;
+    font-size: 1.6em;
+}
+
+.contact-form p {
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#About">About Us</a>
+        <a href="#Products">Products</a>
+        <a href="#Gallery">Gallery</a>
+        <a href="#Contact">Contact Us</a>
+    </nav>
+
+    <section id="Home">
+        <h1>Welcome!</h1>
+        <p>This is where the Hiking Journey begins. Scroll down to explore more.</p>
+       <img src="C:\Users\2023-1-00920\Downloads\Prelim Exam_WSTL\pexels-valeriiamiller-2527559.jpg" alt="Welcome Image" width="500">
+    </section>
+
+    <section id="About">
+        <h1>About Us</h1>
+       <img src="C:\Users\2023-1-00920\Downloads\Prelim Exam_WSTL\pexels-dreamypixel-554609.jpg" alt="About Us" width="500">
+        
+    </section>
+
+    <section id="Products">
+        <h1>Our Products</h1>
+        <img src="C:\Users\2023-1-00920\Downloads\Prelim Exam_WSTL\pexels-rdne.jpg" alt="Our Products" width="500">
+        
+    </section>
+
+    <section id="Gallery">
+        <h1>Gallery</h1>
+         <img src="C:\Users\2023-1-00920\Downloads\Prelim Exam_WSTL\pexels-bertellifotografia.jpg" alt="Gallery Image 1" width="500">
+        <img src="C:\Users\2023-1-00920\Downloads\Prelim Exam_WSTL\pexels-rachel-claire.jpg" alt="Gallery Image 2" width="500">
+    </section>
+
+    <section id="Contact">
+        <h1>Contact</h1>
+        
+
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <p>We'll get back to you as soon as possible.</p>
+            <form action="#" method="POST">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
